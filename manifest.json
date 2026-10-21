@@ -10,7 +10,7 @@
   },
   "snapshot": "2026-09-21",
   "build": "2026-10-21",
-  "commit": "44a7e13143db066186cb6a1b2aedc24f2553647c",
+  "commit": "dd197d05c75cd1cfa646e1c65082c88728dd35f5",
   "sourceTreeClean": true,
   "runtime": {
     "node": "v26.12.0"
