@@ -1,11 +1,11 @@
 {
-  "remakeCommit": "c9250aa4288984e788f23b5edcffe4f0b497557f",
+  "remakeCommit": "44a7e13143db066186cb6a1b2aedc24f2553647c",
   "mainCommit": "5eabafad4e19e3cc2f4e71d55848474ff22bd444",
-  "builtAt": "2026-10-21T10:13:06.628Z",
+  "builtAt": "2026-10-21T10:42:29.345Z",
   "release": "7c6da496722d",
   "snapshot": "2026-09-21",
   "sampleMaterial": "materials/M001.html",
   "htmlFiles": 251,
-  "runId": "39582761634",
+  "runId": "39586354816",
   "note": "Preview of the Filament Atlas remake. Not the live tool."
 }
