@@ -10,14 +10,14 @@
   },
   "snapshot": "2026-09-21",
   "build": "2026-10-21",
-  "commit": "57c3dde6c07f26aff528c35abd912d054f1c86d0",
+  "commit": "25a314b648d0a6bb6ebf33475cd00015012d9300",
   "sourceTreeClean": true,
   "runtime": {
     "node": "v26.12.0"
   },
   "dependencies": {
     "build": "781e2fe393e9148f106f3d331abe369fd43ab84cdd452abc513c9e33327528e9",
-    "tools": "884172d9252a04baeb7acefccc481891ea46440e354cf9c2326a5caf3ecadcc6"
+    "tools": "15a5b3f46987ee94e436b98d11525568f147c2d4d5d56926e104b7c0cf6392b4"
   },
   "inputs": {
     "dataManifest": "a2377d9d63aad7050ddc83335f54b0e9eeef3c12cb568d83882cc88aa4725360",
