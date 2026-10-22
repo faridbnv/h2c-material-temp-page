@@ -1,0 +1,1 @@
+var e=`Loading chart`,t=`Loading this view`,n={heading:`The chart could not be loaded`,body:`The table and the other views still work. Check the connection and try again.`},r=`Try again`,i=(e,t)=>`Nothing was written: ${e} cites records that could not all be loaded. ${t} Check the connection and try again.`;export{i as a,r as i,e as n,t as r,n as t};

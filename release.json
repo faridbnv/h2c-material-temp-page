@@ -1,0 +1,109 @@
+{
+  "release": "95d11b1868cd",
+  "runtime": {
+    "nodePin": "26.12.0",
+    "node": "26.12.0",
+    "icu": "78.3"
+  },
+  "template": "Outdoor structural part",
+  "counts": {
+    "pass": 10,
+    "fail": 50,
+    "unknown": 92,
+    "screened": 0,
+    "total": 152
+  },
+  "dataFiles": 332,
+  "reconstruction": {
+    "tables": 36,
+    "rows": 39473,
+    "checks": 6
+  },
+  "files": {
+    "core": {
+      "path": "data/95d11b1868cd/core.json",
+      "sha256": "d75f391ecd98b7eefb8daf7869ecd7238e157dc21a08fb8deb0ae382ec18c306",
+      "bytes": 11475293
+    },
+    "estimates": {
+      "path": "data/95d11b1868cd/estimates.json",
+      "sha256": "588847d53f6bf13f35ccc15bd292b168327adf971f20e365fa67422fa3441881",
+      "bytes": 4615568,
+      "status": "available"
+    },
+    "reference": {
+      "path": "data/95d11b1868cd/reference.json",
+      "sha256": "a408aa9b412ce0e172411a6d2847f332541dd99379c833bc165d78fade692f01",
+      "bytes": 1228267
+    },
+    "shared": {
+      "path": "data/95d11b1868cd/shared.json",
+      "sha256": "000d7c22177860c1ada86a664f3eea13d34312d425ea88c6a023fb7abad76d1a",
+      "bytes": 102879
+    },
+    "detail": {
+      "pattern": "data/95d11b1868cd/detail/{materialId}.json",
+      "count": 175
+    }
+  },
+  "requires": {
+    "strict": [
+      "core"
+    ],
+    "explore": [
+      "core"
+    ],
+    "exploreEstimates": [
+      "core",
+      "estimates"
+    ],
+    "drawer": [
+      "detail",
+      "shared"
+    ],
+    "ashby": [
+      "core",
+      "reference"
+    ],
+    "brief": [
+      "core",
+      "detail:cited"
+    ],
+    "export": [
+      "core",
+      "detail:cited"
+    ]
+  },
+  "assets": [
+    "Drawer-D73SN1Lt.js",
+    "LensHost-Buarp6gx.css",
+    "LensHost-CPwIH4OJ.js",
+    "SavePanel-BzHsS0mH.js",
+    "ashby-81WVaTtQ.js",
+    "brief-DzzMlcfo.js",
+    "chart-Df-wO42B.js",
+    "cited-C_wiw4Cb.js",
+    "compare-DLdkFrJp.js",
+    "copy-t9Xe8DlA.js",
+    "drawer-Dnv99eKI.css",
+    "engine-B65TxLfy.js",
+    "export--Lc5wZCP.js",
+    "family-colors-Ai9GRM4N.js",
+    "heatmap-YZ4szKQ-.js",
+    "index-2C_xwlEd.js",
+    "index-BTjfSm28.css",
+    "lens-hooks-Bb27nlpM.js",
+    "lens-parts-DqbakTiJ.js",
+    "lens-support-DrNwUurC.js",
+    "material-CjvKdX8D.js",
+    "material-CwiHf5kh.css",
+    "material-facts-C2VpmU0J.js",
+    "page-rule-C2uO6VNQ.js",
+    "parallel-la1LNNzB.js",
+    "plotly-ByLqtFiY.js",
+    "plotly-basic.min-BOIfOh-q.js",
+    "rolldown-runtime-XKyaHtl9.js",
+    "scales-BBzSRffk.js",
+    "useLoad-0zGak9kH.js"
+  ]
+}
