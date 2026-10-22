@@ -1,5 +1,5 @@
 {
-  "release": "2c8713fcb29c",
+  "release": "2686fbded3f3",
   "runtime": {
     "nodePin": "26.12.0",
     "node": "26.12.0",
@@ -13,10 +13,65 @@
     "screened": 0,
     "total": 152
   },
-  "dataFiles": 153,
+  "dataFiles": 331,
   "reconstruction": {
     "tables": 36,
     "rows": 39473,
     "checks": 6
-  }
+  },
+  "files": {
+    "core": {
+      "path": "data/2686fbded3f3/core.json",
+      "sha256": "b5d6b187219295f98d62c6a96a3e3d611473b8f1f230fde850bc9b6c078150a8",
+      "bytes": 11234824
+    },
+    "estimates": {
+      "path": "data/2686fbded3f3/estimates.json",
+      "sha256": "86e9a02077f4f0e9cd3b224c58c90167c079b073ecc300bf789d409eef4109c7",
+      "bytes": 4615568,
+      "status": "available"
+    },
+    "reference": {
+      "path": "data/2686fbded3f3/reference.json",
+      "sha256": "f4b9895a354838c3e597a1ad02c05bff7ba9b939bd26fe81172f08b9b473b6ac",
+      "bytes": 65808
+    },
+    "detail": {
+      "pattern": "data/2686fbded3f3/detail/{materialId}.json",
+      "count": 175
+    }
+  },
+  "requires": {
+    "strict": [
+      "core"
+    ],
+    "explore": [
+      "core"
+    ],
+    "exploreEstimates": [
+      "core",
+      "estimates"
+    ],
+    "drawer": [
+      "detail"
+    ],
+    "ashby": [
+      "core",
+      "reference"
+    ],
+    "brief": [
+      "core",
+      "detail:cited"
+    ],
+    "export": [
+      "core",
+      "detail:cited"
+    ]
+  },
+  "assets": [
+    "index-BP8pIB0h.js",
+    "material-BL-dcsUG.js",
+    "style-CwiHf5kh.css",
+    "style-Cy0svbyP.js"
+  ]
 }
