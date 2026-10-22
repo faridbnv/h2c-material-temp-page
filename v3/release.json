@@ -1,5 +1,5 @@
 {
-  "release": "2686fbded3f3",
+  "release": "fc9168eaf4e4",
   "runtime": {
     "nodePin": "26.12.0",
     "node": "26.12.0",
@@ -13,7 +13,7 @@
     "screened": 0,
     "total": 152
   },
-  "dataFiles": 331,
+  "dataFiles": 332,
   "reconstruction": {
     "tables": 36,
     "rows": 39473,
@@ -21,23 +21,28 @@
   },
   "files": {
     "core": {
-      "path": "data/2686fbded3f3/core.json",
-      "sha256": "284fb9aa9bef3dd9f8a2ba161ea75a1f6ec2f0eeaf806b987e08cfc6adbcbe48",
-      "bytes": 11234824
+      "path": "data/fc9168eaf4e4/core.json",
+      "sha256": "393d75cf72748432c53578dc4de2bde4101ff92f57345d911508539e46fc9e93",
+      "bytes": 11475293
     },
     "estimates": {
-      "path": "data/2686fbded3f3/estimates.json",
-      "sha256": "86e9a02077f4f0e9cd3b224c58c90167c079b073ecc300bf789d409eef4109c7",
+      "path": "data/fc9168eaf4e4/estimates.json",
+      "sha256": "10ce96702c14c956371ca2c0b0b3b6b33e08f95de92602b91fd006438c093b13",
       "bytes": 4615568,
       "status": "available"
     },
     "reference": {
-      "path": "data/2686fbded3f3/reference.json",
-      "sha256": "f4b9895a354838c3e597a1ad02c05bff7ba9b939bd26fe81172f08b9b473b6ac",
+      "path": "data/fc9168eaf4e4/reference.json",
+      "sha256": "b3f93997f34c8f55b0404828ee0c85de31ebf8b8796ce84e5c12f65b0e31ec28",
       "bytes": 65808
     },
+    "shared": {
+      "path": "data/fc9168eaf4e4/shared.json",
+      "sha256": "ee0ce466221c7b0db0575db56d0e3fb6d2db4a7d49fc20319bdf46661b6142e6",
+      "bytes": 102879
+    },
     "detail": {
-      "pattern": "data/2686fbded3f3/detail/{materialId}.json",
+      "pattern": "data/fc9168eaf4e4/detail/{materialId}.json",
       "count": 175
     }
   },
@@ -53,7 +58,8 @@
       "estimates"
     ],
     "drawer": [
-      "detail"
+      "detail",
+      "shared"
     ],
     "ashby": [
       "core",
@@ -69,9 +75,14 @@
     ]
   },
   "assets": [
-    "index-BP8pIB0h.js",
-    "material-BL-dcsUG.js",
-    "style-CwiHf5kh.css",
-    "style-Cy0svbyP.js"
+    "Drawer-CRHvcQ7h.js",
+    "SavePanel-DpugiWJQ.js",
+    "drawer-Dnv99eKI.css",
+    "format-9A9U8-jA.js",
+    "index-BQAGImBO.js",
+    "index-BTjfSm28.css",
+    "material-CwiHf5kh.css",
+    "material-m975QtN1.js",
+    "useLoad-BbYq9vr6.js"
   ]
 }
