@@ -9,8 +9,8 @@
     "schema": "b877f2c659ac771053ba1a5a28fa9b2fd8757c00dd5aa7145330f6293889b423"
   },
   "snapshot": "2026-09-21",
-  "build": "2026-10-23",
-  "commit": "97c6e2a40d27279a7c31ba2bfcdb6a600d59e214",
+  "build": "2026-10-24",
+  "commit": "170e23d97a553abefd77f245d1faa769c89c4810",
   "sourceTreeClean": true,
   "runtime": {
     "node": "v26.12.0"
@@ -27,10 +27,10 @@
     "app": "3c26768481f84736fb2a9d1114da37fa0531e73d507bb7e83e18f04c9826580a"
   },
   "outputs": {
-    "db.json": "38adc937e85fec30eaf918f74c52400b4b22f795099d1992177587ed902e157f",
+    "db.json": "bc65746766fd7496664c43891cc34c307a6d90b6e1a4c1b17c2b1251107d9ef4",
     "reference.json": "4f346e3816e9e3dc22ac2ec0846ea6815b2cfed4f38f483162b3d15e8ccaaf84",
-    "H2C_Material_Selector_2026-09-21_7c6da496722d.html": "18d6b72dee97e46c68c0f09c197f2f15ae8632cd83a6beb32587c9d0f85d5a82",
-    "materials/": "62f4f73960e49f0ccb79a741b5ce8b3eead5358d7154f93ac25171e5c076e2b6"
+    "H2C_Material_Selector_2026-09-21_7c6da496722d.html": "4d58c7e53e4c546b02e014a6928c71e2b2d86c42ed43410a06ceae76b47c9bcc",
+    "materials/": "80649bb7ee6a055951d2e6adb8f694576142465483420c6bfef89dba4ac32653"
   },
   "pages": {
     "pages": 82,
